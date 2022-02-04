@@ -1,7 +1,6 @@
 import Config
 
-config :pnpm,
-       :git_ops,
+config :git_ops,
        mix_project: Mix.Project.get!(),
        changelog_file: "CHANGELOG.md",
        repository_url: "https://github.com/benkeil/pnpm",
