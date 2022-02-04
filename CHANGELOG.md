@@ -5,6 +5,11 @@ See [Conventional Commits](Https://conventionalcommits.org) for commit guideline
 
 <!-- changelog -->
 
+## [v0.0.10](https://github.com/benkeil/pnpm/compare/v0.0.9...v0.0.10) (2022-02-04)
+
+
+
+
 ## [v0.0.9](https://github.com/benkeil/pnpm/compare/v0.0.8...v0.0.9) (2022-02-04)
 
 

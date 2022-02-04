@@ -2,7 +2,7 @@ defmodule Pnpm.MixProject do
   use Mix.Project
 
   @source_url "https://github.com/benkeil/pnpm"
-  @version "0.0.9"
+  @version "0.0.10"
 
   def project do
     [
