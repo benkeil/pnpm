@@ -3,8 +3,6 @@ orbs:
   codecov: codecov/codecov@3.2.2
 jobs:
   build:
-    context:
-      - elixir
     docker:
       - image: cimg/elixir:1.13-node
     environment:
@@ -29,4 +27,6 @@ jobs:
 workflows:
   build:
     jobs:
-      - build
+      - build:
+          context:
+            - elixir
