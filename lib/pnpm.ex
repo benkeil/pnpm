@@ -4,15 +4,14 @@ defmodule Pnpm do
   """
 
   @doc """
-  Hello world.
+  Executes pnpm install
 
   ## Examples
 
-      iex> Pnpm.hello()
-      :world
+      iex> Pnpm.install("./", IO.stream())
 
   """
-  def hello do
-    :world
+  def install(directory, into) do
+    System.cmd("pnpm", ["install"], cd: directory, into: into)
   end
 end

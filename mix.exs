@@ -22,7 +22,8 @@ defmodule Pnpm.MixProject do
         plt_add_apps: [:mix]
       ],
       test_coverage: [
-        tool: ExCoveralls
+        tool: ExCoveralls,
+        ignore_modules: [Mix.Tasks.Pnpm.Install]
       ],
       preferred_cli_env: [
         "coveralls.circleci": :test,
@@ -37,7 +38,7 @@ defmodule Pnpm.MixProject do
 
   defp description do
     """
-    A tool for managing the version and changelog of a project using conventional commits.
+    A task to install phoenix npm dependencies with pnpm.
     """
   end
 
@@ -69,7 +70,7 @@ defmodule Pnpm.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger]
+      #      extra_applications: [:logger]
     ]
   end
 

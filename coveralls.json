@@ -2,5 +2,8 @@
   "coverage_options": {
     "output_dir": "reports",
     "minimum_coverage": 90
-  }
+  },
+  "skip_files": [
+    "lib/mix/tasks/pnpm.install.ex"
+  ]
 }
