@@ -12,12 +12,11 @@ defmodule Pnpm.MixProject do
       description: description(),
       package: package(),
       start_permanent: Mix.env() == :prod,
-      name: "pnpm_task",
+      name: "pnpm",
       docs: docs(),
       source_url: @source_url,
       homepage_url: @source_url,
       deps: deps(),
-      files: ~w(mix.exs lib LICENSE.md README.md CHANGELOG.md),
       dialyzer: [
         plt_add_apps: [:mix]
       ],
@@ -44,13 +43,14 @@ defmodule Pnpm.MixProject do
 
   defp package do
     [
-      name: :git_ops,
+      name: :pnpm,
       maintainers: "Ben Keil",
       licenses: ["MIT"],
       links: %{
         "Changelog" => "#{@source_url}/blob/master/CHANGELOG.md",
         "GitHub" => @source_url
-      }
+      },
+      files: ~w(mix.exs lib LICENSE.md README.md CHANGELOG.md)
     ]
   end
 
