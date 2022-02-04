@@ -22,6 +22,7 @@ config :pnpm,
 
 config :junit_formatter,
        print_report_file: true,
+       report_dir: "./reports",
        use_project_subdirectory?: true,
        automatic_create_dir?: true,
        include_filename?: true,

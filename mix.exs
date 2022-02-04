@@ -25,6 +25,7 @@ defmodule Pnpm.MixProject do
         tool: ExCoveralls
       ],
       preferred_cli_env: [
+        "coveralls.circleci": :test,
         "coveralls.travis": :test,
         coveralls: :test,
         "coveralls.detail": :test,

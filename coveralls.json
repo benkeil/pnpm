@@ -1,0 +1,6 @@
+{
+  "coverage_options": {
+    "output_dir": "reports",
+    "minimum_coverage": 90
+  }
+}

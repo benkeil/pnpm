@@ -24,3 +24,4 @@ pnpm-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+/reports/

@@ -16,11 +16,11 @@ jobs:
       - run: mix compile --warnings-as-errors --force
       - run: mix test
       - store_test_results:
-          path: ./_build/test/lib/pnpm/test-junit-report.xml
+          path: ./reports
       - run: mix credo
       - run: mix coveralls.json
       - codecov/upload:
-          file: ./_build/test/lib/pnpm/test-junit-report.xml
+          file: ./reports
 
 workflows:
   build:
