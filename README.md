@@ -10,7 +10,7 @@ by adding `pnpm` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:pnpm, "~> 0.1.0"}
+    {:pnpm, "~> 0.12.0"}
   ]
 end
 ```
