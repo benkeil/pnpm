@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="junit_formatter" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/test/lib/junit_formatter/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/test/lib/junit_formatter/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/test/lib/junit_formatter/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/test/lib/junit_formatter/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/junit_formatter/lib" />
+      <root url="file://$PROJECT_DIR$/deps/junit_formatter/lib" />
+      <root url="file://$PROJECT_DIR$/deps/junit_formatter/lib" />
+    </SOURCES>
+  </library>
+</component>

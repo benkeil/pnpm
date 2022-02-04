@@ -1,6 +1,7 @@
 import Config
 
-config :git_ops,
+config :pnpm,
+       :git_ops,
        mix_project: Mix.Project.get!(),
        changelog_file: "CHANGELOG.md",
        repository_url: "https://github.com/benkeil/pnpm",
@@ -18,3 +19,10 @@ config :git_ops,
          # Pass in `true` to use `"README.md"` or a string to customize
        manage_readme_version: "README.md",
        version_tag_prefix: "v"
+
+config :junit_formatter,
+       print_report_file: true,
+       use_project_subdirectory?: true,
+       automatic_create_dir?: true,
+       include_filename?: true,
+       include_file_line?: true
