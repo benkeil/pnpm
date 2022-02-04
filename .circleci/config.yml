@@ -3,6 +3,8 @@ orbs:
   codecov: codecov/codecov@3.2.2
 jobs:
   build:
+    context:
+      - elixir
     docker:
       - image: cimg/elixir:1.13-node
     environment:
@@ -22,6 +24,7 @@ jobs:
       - run: mix coveralls.json
       - codecov/upload:
           file: ./reports/excoveralls.json
+      - run: mix hex.publish --yes
 
 workflows:
   build:

@@ -1,6 +1,6 @@
 # Pnpm
 
-**TODO: Add description**
+A mix task to install your phoenix web app npm dependencies with `pnpm`.
 
 ## Installation
 

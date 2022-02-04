@@ -1,7 +1,6 @@
 import Config
 
-config :pnpm,
-       :git_ops,
+config :git_ops,
        mix_project: Mix.Project.get!(),
        changelog_file: "CHANGELOG.md",
        repository_url: "https://github.com/benkeil/pnpm",
@@ -17,7 +16,7 @@ config :pnpm,
        manage_mix_version?: true,
          # Instructs the tool to manage the version in your README.md
          # Pass in `true` to use `"README.md"` or a string to customize
-       manage_readme_version: "README.md",
+       manage_readme_version: true,
        version_tag_prefix: "v"
 
 config :junit_formatter,
