@@ -46,7 +46,7 @@ defmodule Pnpm.MixProject do
     [
       name: :git_ops,
       maintainers: "Ben Keil",
-      licenses: ["MIT License"],
+      licenses: ["MIT"],
       links: %{
         "Changelog" => "#{@source_url}/blob/master/CHANGELOG.md",
         "GitHub" => @source_url
