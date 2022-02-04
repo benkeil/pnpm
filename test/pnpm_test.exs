@@ -3,6 +3,6 @@ defmodule PnpmTest do
   doctest Pnpm
 
   test "greets the world" do
-    assert Pnpm.hello() == :worldX
+    assert Pnpm.hello() == :world
   end
 end
