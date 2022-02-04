@@ -77,9 +77,9 @@ defmodule Pnpm.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:git_ops, "~> 2.4.5", runtime: false},
+      {:git_ops, "~> 2.4.5", only: [:dev, :test], runtime: false},
       {:excoveralls, "~> 0.14", only: [:test]},
-      {:ex_doc, "~> 0.27", runtime: false},
+      {:ex_doc, "~> 0.27", only: [:dev, :test], runtime: false},
       {:junit_formatter, "~> 3.1", only: [:test]},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
     ]
