@@ -1,5 +1,8 @@
 defmodule Mix.Tasks.Pnpm.Install do
-  @moduledoc false
+  @moduledoc """
+  Mix task for `pnpm install`.
+  """
+
   @requirements ["app.config"]
   use Mix.Task
 

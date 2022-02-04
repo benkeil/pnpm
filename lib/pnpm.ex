@@ -1,6 +1,6 @@
 defmodule Pnpm do
   @moduledoc """
-  Documentation for `Pnpm`.
+  Wrapper for `pnpm`.
   """
 
   @doc """
