@@ -12,7 +12,7 @@ defmodule Pnpm.MixProject do
       description: description(),
       package: package(),
       start_permanent: Mix.env() == :prod,
-      name: "pnpm",
+      name: "pnpm_task",
       docs: docs(),
       source_url: @source_url,
       homepage_url: @source_url,
