@@ -20,7 +20,7 @@ jobs:
       - run: mix credo
       - run: mix coveralls.json
       - codecov/upload:
-          file: ./reports
+          file: ./reports/excoveralls.json
 
 workflows:
   build:
