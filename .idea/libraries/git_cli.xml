@@ -7,9 +7,14 @@
       <root url="file://$PROJECT_DIR$/_build/dev/lib/git_cli/ebin" />
       <root url="file://$PROJECT_DIR$/_build/dev/lib/git_cli/ebin" />
       <root url="file://$PROJECT_DIR$/_build/dev/lib/git_cli/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/git_cli/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/test/lib/git_cli/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/git_cli/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/test/lib/git_cli/ebin" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/git_cli/lib" />
       <root url="file://$PROJECT_DIR$/deps/git_cli/lib" />
       <root url="file://$PROJECT_DIR$/deps/git_cli/lib" />
       <root url="file://$PROJECT_DIR$/deps/git_cli/lib" />

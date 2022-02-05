@@ -39,6 +39,14 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/ssl_verify_fun" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/junit_formatter" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/unicode_util_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/makeup" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/makeup_erlang" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/ex_doc" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/git_cli" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/nimble_parsec" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/earmark_parser" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/makeup_elixir" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/git_ops" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
